@@ -5,9 +5,11 @@ class Solution {
         char[] y = t.toCharArray();
         Arrays.sort(x);
         Arrays.sort(y);
-        for(int i=0;i<x.length;i++){
-            if(x[i]!=y[i]) return false;
-        }
-        return true;
+        return Arrays.equals(x,y);
+
+        // for(int i=0;i<x.length;i++){
+        //     if(x[i]!=y[i]) return false;
+        // }
+        // return true;
         }
 }

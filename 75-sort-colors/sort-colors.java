@@ -2,7 +2,7 @@ class Solution {
     public void sortColors(int[] nums) {
         int low = 0;
         int mid = 0;
-        int high = nums.length - 1;
+        int high = nums.length - 1;//imagine:5
 
         while (mid <= high) {
             if (nums[mid] == 0) {
